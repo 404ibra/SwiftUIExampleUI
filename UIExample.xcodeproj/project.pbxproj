@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6C5A6AE229E7491D005A9B1A /* AddFoodView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C5A6AE129E7491D005A9B1A /* AddFoodView.swift */; };
+		6C5A6AE429E74C15005A9B1A /* TimeFormatting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C5A6AE329E74C15005A9B1A /* TimeFormatting.swift */; };
 		6CCF899029E7261000C3DB1A /* UIExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CCF898F29E7261000C3DB1A /* UIExampleApp.swift */; };
 		6CCF899229E7261000C3DB1A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CCF899129E7261000C3DB1A /* ContentView.swift */; };
 		6CCF899429E7261100C3DB1A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6CCF899329E7261100C3DB1A /* Assets.xcassets */; };
@@ -18,6 +20,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6C5A6AE129E7491D005A9B1A /* AddFoodView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFoodView.swift; sourceTree = "<group>"; };
+		6C5A6AE329E74C15005A9B1A /* TimeFormatting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeFormatting.swift; sourceTree = "<group>"; };
 		6CCF898C29E7261000C3DB1A /* UIExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CCF898F29E7261000C3DB1A /* UIExampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIExampleApp.swift; sourceTree = "<group>"; };
 		6CCF899129E7261000C3DB1A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -41,6 +45,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6C5A6ADF29E748DB005A9B1A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6CCF899129E7261000C3DB1A /* ContentView.swift */,
+				6C5A6AE129E7491D005A9B1A /* AddFoodView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		6C5A6AE029E748E3005A9B1A /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				6CCF898F29E7261000C3DB1A /* UIExampleApp.swift */,
+				6C5A6AE329E74C15005A9B1A /* TimeFormatting.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 		6CCF898329E7261000C3DB1A = {
 			isa = PBXGroup;
 			children = (
@@ -60,9 +82,9 @@
 		6CCF898E29E7261000C3DB1A /* UIExample */ = {
 			isa = PBXGroup;
 			children = (
+				6C5A6AE029E748E3005A9B1A /* Helpers */,
+				6C5A6ADF29E748DB005A9B1A /* Views */,
 				6CE5E91029E73F5900400049 /* DataModel */,
-				6CCF898F29E7261000C3DB1A /* UIExampleApp.swift */,
-				6CCF899129E7261000C3DB1A /* ContentView.swift */,
 				6CCF899329E7261100C3DB1A /* Assets.xcassets */,
 				6CCF899829E7261100C3DB1A /* Persistence.swift */,
 				6CCF899D29E7261100C3DB1A /* Info.plist */,
@@ -160,11 +182,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				6CCF899C29E7261100C3DB1A /* UIExample.xcdatamodeld in Sources */,
+				6C5A6AE429E74C15005A9B1A /* TimeFormatting.swift in Sources */,
 				6CE5E91229E73F7100400049 /* DataController.swift in Sources */,
 				6CCF899929E7261100C3DB1A /* Persistence.swift in Sources */,
 				6CCF899229E7261000C3DB1A /* ContentView.swift in Sources */,
 				6CE5E90F29E73EE400400049 /* FoodModel.xcdatamodeld in Sources */,
 				6CCF899029E7261000C3DB1A /* UIExampleApp.swift in Sources */,
+				6C5A6AE229E7491D005A9B1A /* AddFoodView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
